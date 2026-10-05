@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Versionning</title>
+	<link rel="stylesheet" href="./bootstrap.css">
+  <style>
+    main {
+      max-width: 900px;
+      margin: 4rem auto;
+      padding: 0 1.5rem;
+      font-family: Arial, sans-serif;
+    }
+
+    main h1 {
+      color: #173f5f;
+      font-size: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    main p {
+      color: #52606d;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .version-card {
+      background: #f3f7fa;
+      border-left: 4px solid #20639b;
+      margin-top: 2rem;
+      padding: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarColor01">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+					<a class="nav-link active" href="#">Home
+						<span class="visually-hidden">(current)</span>
+					</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Separated link</a>
+					</div>
+					</li>
+				</ul>
+				</div>
+			</div>
+			</nav>
+    </header>
+    <main>
+		<h1>Bienvenue sur Versionning</h1>
+		<p>Un espace simple pour suivre les modifications et mieux comprendre l'histoire d'un projet.</p>
+		<section class="version-card" aria-labelledby="version-title">
+			<h2 id="version-title">Pourquoi utiliser le versioning ?</h2>
+			<p>Conservez chaque étape de votre travail, comparez les changements et collaborez sereinement avec votre équipe.</p>
+		</section>
+    </main>
+    <footer>
+		<p class="text-center text-muted">© 2023 Versionning</p>
+		<nav class="navbar navbar-expand-lg bg-primary row justify-content-center" data-bs-theme="dark">
+			<a href="#" class="nav-link text-white text-center col-1">Mentions légales</a>
+			<a href="#" class="nav-link text-white text-center col-1">Contact</a>
+		</nav>
+    </footer>
+</body>
+</html>
